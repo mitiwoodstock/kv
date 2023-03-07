@@ -1,0 +1,57 @@
+{ 
+        "notices": 
+        [ 
+            "Upbit does not, under any circumstances, require any compensation for Market Support.", 
+            "You can apply for the Upbit Market Support only through the Market Support inquiry page in our official website and not via Telegram, Linkedin, Email, Broker, etc.", 
+            "Upbit does not operate external agency to assist or broker Market Support, and all procedures are done directly through Upbit personnel.", 
+            "A pop-up with the application number will appear after the application is submitted. Please do not expose the application number.",
+                "Within 90 days of submitting the application, Upbit will contact the project teams which passed the Preliminary Review. These teams will be subject to Upbit's In-depth Review process.",
+            "This certificate doesn't mean Upbit offers a follow-up contract for listing."
+        ], 
+        "disclosures": 
+        [ 
+            "A Preliminary Review is a screening process sorting out candidates for In-Depth Review.", "Passing the Reviews does not guarantee Market Support at Upbit." 
+        ], 
+        "snsList": 
+        [ 
+            "Twitter", "Telegram", "Discord", "Reddit", "Blog", "Facebook", "Slack", "Etc" 
+        ], 
+        "sections": 
+        [ 
+            { 
+                "title": "Project Information",     
+                "fields": 
+                [ 
+                    
+                    { "key": "project_name", "title": "Project Name*", "required": true, "placeholder": "Please write down the project name." }, 
+                    { "key": "email", "title": "Email*", "type": "email", "required": true, "placeholder": "Please write down the Email address for further communication." }, 
+                    { "key": "telegram", "title": "Telegram*", "required": true, "placeholder": "Please write down the Telegram handle of the person in charge of communication." }, 
+                    { "key": "introduction", "title": "Breif Introduction*", "type": "textarea", "required": true, "placeholder": "Please write down a brief introduction of the project within 3,000 characters." }, 
+                    { "key": "corporate_name", "title": "Corporate name*", "required": true, "placeholder": "Please write down the token issuing corporate name that is related to this project." }, 
+                    { "key": "country_of_incorporation", "title": "Country of Incorporation*", "required": true, "placeholder": "Please write down the corresponding information that matches to the above Corporate."}, 
+                    { "key": "date_of_incorporation", "title": "Date of Incorporation*", "required": true, "placeholder": "Please write down the corresponding information that matches to the above Corporate." },
+                    { "key": "website", "title": "Website*", "required": true, "placeholder": "Please write down the URL of the main page that best describes the project." }, 
+                    { "key": "github", "title": "Github*", "required": true, "placeholder": "Please write down the URL of the main page that best describes the project." },  
+                    { "key": "investment_round", "title": "Investment round*", "required": true, "placeholder": "Please write down abstract of the latest Investment round and participants." }, 
+                    { "key": "whitepaper", "title": "Whitepaper", "required": false, "hint": "Please include the project's whitepaper as a PDF attachment." }, 
+                    { "key": "coi", "title": "COI", "required": false, "hint": "Please include the project's Certificate of Incorporation as a PDF attachment." } 
+                ] 
+            },
+            { 
+                "title": "Token Information",     
+                "fields": 
+                [ 
+                    { "key": "token_name", "title": "Token Name*", "required": true, "placeholder": "Please write down the Token name of the project. e.g. Ethereum(ETH)" }, 
+                    { "key": "token_theme", "title": "Token classificatio*", "required": true, "placeholder": "Please write down the main sector the project falls under." }, 
+                    { "key": "token_standard", "title": "Token standard*", "required": true, "placeholder": "Please write down the standard of the token. e.g. ERC-20" }, 
+                    { "key": "token_smart_contract_address", "title": "Token smart contract address*", "required": true, "placeholder": "Please write down the contract address of the token." }, 
+                    { "key": "explorer_address", "title": "Explorer address*", "required": true, "placeholder": "Please write down the main explorer that best expresses token activity." }, 
+                    { "key": "token_utillity", "title": "Token Utility*", "required": true, "placeholder": "Please write down the usage of the token." }, 
+                    { "key": "exchange_listed", "title": "Listed Exchange*", "required": true, "placeholder": "Please write down all the Central exchange the project token is listed." }, 
+                    { "key": "legal_opinion", "title": "Legal opinion", "required": false, "hint": "Please include the Legal opinion of the project from a Law Firm as a PDF attachment. " }, 
+                    { "key": "technical_audit_report", "title": "Technical audit report", "required": false, "hint": "Please include the Audit report of the project as a PDF attachment." }, 
+                    { "key": "checklist", "title": "Checklist*\nDownload", "required": true, "hint": "Please include the Downloadable Checklist once the items in the list have been updated." }
+                ] 
+            } 
+        ] 
+}
